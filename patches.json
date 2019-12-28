@@ -31,12 +31,6 @@
 		"magento/module-downloadable-sample-data": {
 			"Fix sample data code generator": "m2-hotfixes/pmet-fix-sample-data-code-generator.patch"
 		},
-		"magento/module-sales-sample-data": {
-			"Specify Store ID for order in sample data": "m2-hotfixes/pmet-specify-store-id-for-order.patch"
-		},
-		"magento/module-staging": {
-			"Fix Staging and Preview JavaScript": "m2-hotfixes/pmet-staging-preview-js-fix.patch"
-		},
 		"magento/module-shared-catalog": {
 			"Remove shared catalog warning message": "m2-hotfixes/kukla-remove-shared-catalog-warning.patch"
 		}
