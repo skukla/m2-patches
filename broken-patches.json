@@ -1,8 +1,5 @@
 {
 	"patches": {
-		"magento/module-sales-sample-data": {
-			"Specify Store ID for order in sample data": "m2-hotfixes/pmet-specify-store-id-for-order.patch"
-		},
 		"magento/module-staging": {
 			"Fix Staging and Preview JavaScript": "m2-hotfixes/pmet-staging-preview-js-fix.patch"
 		}

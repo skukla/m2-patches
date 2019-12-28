@@ -33,6 +33,9 @@
 		},
 		"magento/module-shared-catalog": {
 			"Remove shared catalog warning message": "m2-hotfixes/kukla-remove-shared-catalog-warning.patch"
+		},
+		"magento/module-sales-sample-data": {
+			"Specify Store ID for order in sample data": "m2-hotfixes/pmet-specify-store-id-for-order.patch"
 		}
 	}
 }
