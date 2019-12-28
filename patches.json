@@ -38,7 +38,7 @@
 			"Specify Store ID for order in sample data": "m2-hotfixes/pmet-specify-store-id-for-order.patch"
 		},
 		"magento/theme-frontend-luma": {
-			"Chnage image gallery display to replace": "m2-hotfixes/kukla-update-image-gallery-display.patch"
+			"Chnage image gallery display mode to replace": "m2-hotfixes/kukla-update-image-gallery-display.patch"
 		}
 	}
 }
