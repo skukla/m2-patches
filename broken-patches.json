@@ -14,6 +14,15 @@
 		},
 		"magento/module-staging": {
 			"Fix Staging and Preview JavaScript": "m2-hotfixes/pmet-staging-preview-js-fix.patch"
+		},
+		"magento/framework": {
+			"Stop catching sample data errors during install": "m2-hotfixes/pmet-stop-catching-sample-data-errrors-during-install.patch"
+		},
+		"magento/module-swatches": {
+			"Fix product image switching": "m2-hotfixes/pmet-fix-product-image-switching.patch"
+		},
+		"magento/framework": {
+			"Fix module loader algorithm": "m2-hotfixes/pmet-fix-module-loader-algorithm.patch"
 		}
 	}
 }
