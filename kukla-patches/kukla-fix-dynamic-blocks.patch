@@ -1,3 +1,4 @@
+
 diff --git a/vendor/magento/module-banner/view/frontend/web/js/model/banner.js b/vendor/magento/module-banner/view/frontend/web/js/model/banner.js
 index 5dced947634..b79addef41f 100644
 --- a/vendor/magento/module-banner/view/frontend/web/js/model/banner.js
@@ -35,6 +36,7 @@ index 5dced947634..b79addef41f 100644
             }
         },
         dataProvider = {
+
 diff --git a/vendor/magento/module-customer-segment/Model/Customer.php b/vendor/magento/module-customer-segment/Model/Customer.php
 index aa6d1e271ad..3f7c87cabf9 100644
 --- a/vendor/magento/module-customer-segment/Model/Customer.php
@@ -95,6 +97,7 @@ index aa6d1e271ad..3f7c87cabf9 100644
 -        return $collection->getAllIds();
 -    }
 }
+
 diff --git a/vendor/magento/module-customer-segment/Model/Segment/Condition/Shoppingcart/Amount.php b/vendor/magento/module-customer-segment/Model/Segment/Condition/Shoppingcart/Amount.php
 index 3d21fc555f6..d8fec90cb85 100644
 --- a/vendor/magento/module-customer-segment/Model/Segment/Condition/Shoppingcart/Amount.php
@@ -118,6 +121,7 @@ index 3d21fc555f6..d8fec90cb85 100644
 
         $select->where(
             'quote.store_id IN(?)',
+
 diff --git a/vendor/magento/module-customer-segment/Test/Unit/Model/CustomerTest.php b/vendor/magento/module-customer-segment/Test/Unit/Model/CustomerTest.php
 index fb3d525d74c..1af12637ced 100644
 --- a/vendor/magento/module-customer-segment/Test/Unit/Model/CustomerTest.php
@@ -175,6 +179,7 @@ index fb3d525d74c..1af12637ced 100644
     public function dataProviderRemoveVisitorFromWebsiteSegments()
     {
         return [
+
 diff --git a/vendor/magento/module-banner/Test/Mftf/Test/AdminAddNestedBannerWithImageTest.xml b/vendor/magento/module-banner/Test/Mftf/Test/AdminAddNestedBannerWithImageTest.xml
 index 9fcc1e5a5ab..32d31b5e403 100644
 --- a/vendor/magento/module-banner/Test/Mftf/Test/AdminAddNestedBannerWithImageTest.xml
@@ -201,6 +206,7 @@ index cf3300603a2..1fdbbd93e8c 100644
         <see userInput="Sample Variable Hello World from banner!" stepKey="assertBannerDescription"/>
     </test>
 </tests>
+
 diff --git a/vendor/magento/module-banner/Test/Mftf/Test/AdminAddNestedBannerWithImageTest.xml b/vendor/magento/module-banner/Test/Mftf/Test/AdminAddNestedBannerWithImageTest.xml
 index 32d31b5e403..9fcc1e5a5ab 100644
 --- a/vendor/magento/module-banner/Test/Mftf/Test/AdminAddNestedBannerWithImageTest.xml
@@ -240,6 +246,7 @@ index b79addef41f..65d63364c82 100644
 +                && $.localStorage.get('mage-cache-storage').hasOwnProperty('cart')) {
                 cartDataId = $.localStorage.get('mage-cache-storage').cart['data_id'];
             }
+
 diff --git a/vendor/magento/module-banner/view/frontend/web/js/model/banner.js b/vendor/magento/module-banner/view/frontend/web/js/model/banner.js
 index 65d63364c82..32cc02903fd 100644
 --- a/vendor/magento/module-banner/view/frontend/web/js/model/banner.js
