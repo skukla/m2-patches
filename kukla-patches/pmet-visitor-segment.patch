@@ -1,4 +1,4 @@
-diff --git a/vendor/magento/module-customer/Model/Visitor.php b/app/code/Magento/Customer/Model/Visitor.php
+diff --git a/vendor/magento/module-customer/Model/Visitor.php b/vendor/magento/module-customer/Model/Visitor.php
 index 6935b9dca7f..cbd4505bd97 100644
 --- a/vendor/magento/module-customer/Model/Visitor.php
 +++ b/vendor/magento/module-customer/Model/Visitor.php
