@@ -3,9 +3,6 @@
 		"magento/module-theme": {
 			"Fix for uploading a logo via the admin": "m2-hotfixes/pmet-logo-image-upload.patch"
 		},
-		"magento/module-customer": {
-			"Fix for guest customer segments": "m2-hotfixes/pmet-visitor-segment.patch"
-		},
 		"magento/framework": {
 			"Allow graphql introspection": "m2-hotfixes/pmet-allow-graphql-introspection.patch"
 		},

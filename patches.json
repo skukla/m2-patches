@@ -31,7 +31,16 @@
 			"Remove shared catalog warning message": "m2-hotfixes/kukla-remove-shared-catalog-warning.patch"
 		},
 		"magento/theme-frontend-luma": {
-			"Chnage image gallery display mode to replace": "m2-hotfixes/kukla-update-image-gallery-display.patch"
+			"Change image gallery display mode to replace": "m2-hotfixes/kukla-update-image-gallery-display.patch"
+		},
+		"magento/module-customer": {
+			"Fix for guest customer segments": "m2-hotfixes/pmet-visitor-segment.patch"
+		},
+		"magento/module-customer-segment": {
+			"First fix for customer segment/dynamic blocks issue in 2.3.4": "m2-hotfixes/pmet-dynamic-block-segment-display-1.patch"
+		},
+		"magento/module-banner": {
+			"Second fix for customer segment/dynamic blocks issue in 2.3.4": "m2-hotfixes/pmet-dynamic-block-segment-display-2.patch"
 		}
 	}
 }
