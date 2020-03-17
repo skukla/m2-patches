@@ -1,0 +1,43 @@
+{
+	"patches": {
+		"magento/module-configurable-sample-data": {
+			"Adjust indexation of configurable recurring sample data": "m2-hotfixes/pmet-configurable-recurring.patch"
+		},
+		"magento/magento2-base": {
+			"Add install module timings": "m2-hotfixes/pmet-add-install-module-timings.patch"
+		},
+		"magento/module-message-queue": {
+			"Consumers run staggered by sleep": "m2-hotfixes/pmet-consumers-run-staggered-by-sleep.patch"
+		},
+		"magento/module-gift-registry-sample-data": {
+			"Fix invalid sample data module dependencies": "m2-hotfixes/pmet-fix-invalid-sample-data-module-dependencies.patch"
+		},
+		"magento/module-downloadable-sample-data": {
+			"Fix sample data code generator": "m2-hotfixes/pmet-fix-sample-data-code-generator.patch"
+		},
+		"magento/module-sample-data": {
+			"Change sample data load order": "m2-hotfixes/pmet-change-sample-data-load-order.patch"
+		},
+		"magento/module-sales-sample-data": {
+			"Specify Store ID for order in sample data": "m2-hotfixes/pmet-specify-store-id-for-order.patch"
+		},
+		"magento/theme-adminhtml-backend": {
+			"Fix admin label work breaks": "m2-hotfixes/pmet-fix-admin-label-word-breaking.patch"
+		},
+		"magento/module-shared-catalog": {
+			"Remove shared catalog warning message": "m2-hotfixes/kukla-remove-shared-catalog-warning.patch"
+		},
+		"magento/theme-frontend-luma": {
+			"Change image gallery display mode to replace": "m2-hotfixes/kukla-update-image-gallery-display.patch"
+		},
+		"magento/module-customer": {
+			"Fix for guest customer segments": "m2-hotfixes/pmet-visitor-segment.patch"
+		},
+		"magento/module-customer-segment": {
+			"First fix for customer segment/dynamic blocks issue in 2.3.4": "m2-hotfixes/pmet-dynamic-block-segment-display-1.patch"
+		},
+		"magento/module-banner": {
+			"Second fix for customer segment/dynamic blocks issue in 2.3.4": "m2-hotfixes/pmet-dynamic-block-segment-display-2.patch"
+		}
+	}
+}

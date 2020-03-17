@@ -3,30 +3,6 @@
 		"magento/module-configurable-sample-data": {
 			"Adjust indexation of configurable recurring sample data": "m2-hotfixes/pmet-configurable-recurring.patch"
 		},
-		"magento/magento2-base": {
-			"Add install module timings": "m2-hotfixes/pmet-add-install-module-timings.patch"
-		},
-		"magento/module-elasticsearch": {
-			"Elasticsearch 6 fix": "m2-hotfixes/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch"
-		},
-		"magento/module-message-queue": {
-			"Consumers run staggered by sleep": "m2-hotfixes/pmet-consumers-run-staggered-by-sleep.patch"
-		},
-		"magento/module-gift-registry-sample-data": {
-			"Fix invalid sample data module dependencies": "m2-hotfixes/pmet-fix-invalid-sample-data-module-dependencies.patch"
-		},
-		"magento/module-downloadable-sample-data": {
-			"Fix sample data code generator": "m2-hotfixes/pmet-fix-sample-data-code-generator.patch"
-		},
-		"magento/module-sample-data": {
-			"Change sample data load order": "m2-hotfixes/pmet-change-sample-data-load-order.patch"
-		},
-		"magento/module-sales-sample-data": {
-			"Specify Store ID for order in sample data": "m2-hotfixes/pmet-specify-store-id-for-order.patch"
-		},
-		"magento/theme-adminhtml-backend": {
-			"Fix admin label work breaks": "m2-hotfixes/pmet-fix-admin-label-word-breaking.patch"
-		},
 		"magento/module-shared-catalog": {
 			"Remove shared catalog warning message": "m2-hotfixes/kukla-remove-shared-catalog-warning.patch"
 		},

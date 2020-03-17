@@ -18,6 +18,9 @@
 		},
 		"magento/framework": {
 			"Fix module loader algorithm": "m2-hotfixes/pmet-fix-module-loader-algorithm.patch"
-		}
+		},
+		"magento/module-elasticsearch": {
+                        "Elasticsearch 6 fix": "m2-hotfixes/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch"
+                }
 	}
 }
